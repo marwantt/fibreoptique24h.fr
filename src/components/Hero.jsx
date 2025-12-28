@@ -16,10 +16,10 @@ const Hero = () => {
                 </p>
 
                 <div className="hero-actions">
-                    <a href="tel:+33600000000" className="btn btn-primary btn-lg">
+                    <a href="tel:+33659896116" className="btn btn-primary btn-lg">
                         📞 Appeler maintenant
                     </a>
-                    <a href="https://wa.me/33600000000" className="btn btn-success btn-lg">
+                    <a href="https://wa.me/33659896116" className="btn btn-success btn-lg">
                         💬 WhatsApp
                     </a>
                 </div>

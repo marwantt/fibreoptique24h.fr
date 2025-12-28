@@ -13,14 +13,14 @@ const Contact = () => {
                     </p>
 
                     <div className="contact-methods">
-                        <a href="tel:+33600000000" className="contact-card primary">
+                        <a href="tel:+33659896116" className="contact-card primary">
                             <span className="icon">📞</span>
                             <div>
                                 <h3>Appeler</h3>
-                                <p>06 00 00 00 00</p>
+                                <p>06 59 89 61 16</p>
                             </div>
                         </a>
-                        <a href="https://wa.me/33600000000" className="contact-card success">
+                        <a href="https://wa.me/33659896116" className="contact-card success">
                             <span className="icon">💬</span>
                             <div>
                                 <h3>WhatsApp</h3>
