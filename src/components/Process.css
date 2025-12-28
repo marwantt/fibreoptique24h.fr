@@ -1,0 +1,45 @@
+.process-section {
+    background-color: var(--color-bg);
+}
+
+.process-steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.process-step {
+    flex: 1;
+    min-width: 200px;
+    background: var(--color-bg-light);
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border);
+    position: relative;
+    text-align: center;
+}
+
+.step-num {
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgba(249, 115, 22, 0.2);
+    /* Orange transparent */
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    line-height: 1;
+}
+
+.process-step h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.process-step p {
+    color: var(--color-text-muted);
+    position: relative;
+    z-index: 1;
+}
