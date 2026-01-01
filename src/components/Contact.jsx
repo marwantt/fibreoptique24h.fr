@@ -27,6 +27,13 @@ const Contact = () => {
                                 <p>Réponse immédiate</p>
                             </div>
                         </a>
+                        <a href="mailto:contact@fibreoptique24h.fr" className="contact-card">
+                            <span className="icon">📧</span>
+                            <div>
+                                <h3>Email</h3>
+                                <p>contact@fibreoptique24h.fr</p>
+                            </div>
+                        </a>
                     </div>
 
                     <div className="info-block">

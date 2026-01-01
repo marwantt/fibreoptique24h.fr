@@ -23,7 +23,7 @@
 .step-num {
     font-size: 3rem;
     font-weight: 800;
-    color: rgba(249, 115, 22, 0.2);
+    color: var(--color-primary-faint);
     /* Orange transparent */
     position: absolute;
     top: 1rem;

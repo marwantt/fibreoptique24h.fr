@@ -25,7 +25,7 @@
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--color-card-bg);
     padding: 1.5rem;
     border-radius: var(--radius-md);
     transition: all 0.2s;
@@ -33,7 +33,7 @@
 }
 
 .contact-card:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--color-card-hover);
     transform: translateX(5px);
 }
 

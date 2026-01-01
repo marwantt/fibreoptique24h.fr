@@ -1,5 +1,5 @@
 .footer {
-    background-color: #000;
+    background-color: var(--color-footer-bg);
     padding: 4rem 0 2rem;
     border-top: 1px solid var(--color-border);
     font-size: 0.875rem;
@@ -40,7 +40,7 @@
 }
 
 .footer-bottom {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid var(--color-border);
     padding-top: 2rem;
     color: var(--color-text-muted);
 }

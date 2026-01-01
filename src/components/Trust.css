@@ -32,7 +32,7 @@
 }
 
 .compatibility-box {
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--color-card-bg);
     padding: 1.5rem;
     border-radius: var(--radius-md);
     margin-bottom: 2rem;
