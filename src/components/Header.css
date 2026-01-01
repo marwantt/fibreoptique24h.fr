@@ -27,7 +27,7 @@
     object-fit: contain;
 }
 
-/* Default Dark Mode: Show White Logo, Hide Black Logo */
+/* Default Dark Mode (or No Preference): Show White Logo */
 .logo-dark {
     display: block;
 }
@@ -36,13 +36,15 @@
     display: none;
 }
 
-/* Light Mode Override: Show Black Logo, Hide White Logo */
-:root[data-theme="light"] .logo-dark {
-    display: none;
-}
+/* Light Mode Override via Media Query */
+@media (prefers-color-scheme: light) {
+    .logo-dark {
+        display: none;
+    }
 
-:root[data-theme="light"] .logo-light {
-    display: block;
+    .logo-light {
+        display: block;
+    }
 }
 
 .logo {
@@ -68,5 +70,25 @@
 @media (max-width: 768px) {
     .hidden-mobile {
         display: none;
+    }
+
+    .header-container {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .logo-wrapper {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .header-actions {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .btn-sm {
+        width: 100%;
+        max-width: 300px;
     }
 }
