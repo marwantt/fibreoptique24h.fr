@@ -1,9 +1,9 @@
 import React from 'react';
 import './Gallery.css';
-import gallerySplicing from '../assets/gallery_splicing.png';
+import gallerySplicing from '../assets/gallery_splicing_branded.png';
 import galleryRack from '../assets/gallery_rack.png';
 import galleryHome from '../assets/gallery_home.png';
-import galleryOutdoor from '../assets/gallery_outdoor.png';
+import galleryOutdoor from '../assets/gallery_outdoor_branded.png';
 
 const Gallery = () => {
     const photos = [
