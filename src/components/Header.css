@@ -68,8 +68,17 @@
 }
 
 @media (max-width: 768px) {
+
+    /* We want to show "Email" and "06..." text inside buttons on mobile now, or at least icons. 
+       The user request implies they want 2 options visible. 
+       Let's unhide the span text for mobile inside header buttons if space allows, 
+       or just ensure the buttons are nicely sized. 
+       Actually, standard pattern is usually just icons or full width. 
+       I will make them share the row.
+    */
     .hidden-mobile {
-        display: none;
+        /* Revert hiding on mobile for header buttons so users see "Email" and Number */
+        display: inline;
     }
 
     .header-container {
@@ -85,10 +94,15 @@
     .header-actions {
         width: 100%;
         justify-content: center;
+        gap: 0.5rem;
+        /* Smaller gap for mobile */
     }
 
     .btn-sm {
-        width: 100%;
-        max-width: 300px;
+        /* Make buttons share width */
+        flex: 1;
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        white-space: nowrap;
     }
 }
