@@ -4,13 +4,17 @@ import gallerySplicing from '../assets/gallery_splicing_branded.png';
 import galleryRack from '../assets/gallery_rack.png';
 import galleryHome from '../assets/gallery_home.png';
 import galleryOutdoor from '../assets/gallery_outdoor_branded.png';
+import galleryTesting from '../assets/gallery_testing.png';
+import galleryCabling from '../assets/gallery_cabling.png';
 
 const Gallery = () => {
     const photos = [
         { src: gallerySplicing, alt: "Soudure Fibre Optique", caption: "Soudure Haute Précision" },
         { src: galleryRack, alt: "Baie de Brassage", caption: "Organisation Baie Serveur" },
         { src: galleryHome, alt: "Installation à Domicile", caption: "Installation Rapide à Domicile" },
-        { src: galleryOutdoor, alt: "Intervention Extérieure", caption: "Maintenance Réseau Urbain" }
+        { src: galleryOutdoor, alt: "Intervention Extérieure", caption: "Maintenance Réseau Urbain" },
+        { src: galleryTesting, alt: "Tests de Performance", caption: "Certification & Tests Débit" },
+        { src: galleryCabling, alt: "Câblage Immeuble", caption: "Raccordement Colonne Montante" }
     ];
 
     return (
