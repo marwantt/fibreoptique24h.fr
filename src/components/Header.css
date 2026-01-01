@@ -22,8 +22,7 @@
 }
 
 .logo-img {
-    height: 1.5rem;
-    /* Matches font size approx */
+    height: 3rem;
     width: auto;
     object-fit: contain;
 }
