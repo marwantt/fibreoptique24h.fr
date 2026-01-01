@@ -15,8 +15,8 @@ const Footer = () => {
 
                 <div className="footer-col">
                     <h4>Contact</h4>
-                    <p>📞 06 59 89 61 16</p>
-                    <p>📧 contact@fibreoptique24h.fr</p>
+                    <a href="tel:+33659896116">📞 06 59 89 61 16</a>
+                    <a href="mailto:contact@fibreoptique24h.fr">📧 contact@fibreoptique24h.fr</a>
                     <p>📍 Paris & Île-de-France</p>
                 </div>
 

@@ -25,6 +25,12 @@
     margin-bottom: 1rem;
 }
 
+.footer-col a {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: inherit;
+}
+
 .footer-col ul {
     display: flex;
     flex-direction: column;
