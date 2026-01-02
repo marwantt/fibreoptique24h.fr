@@ -19,7 +19,7 @@ const Hero = () => {
                     <a href="tel:+33659896116" className="btn btn-primary btn-lg">
                         📞 Appeler maintenant
                     </a>
-                    <a href="https://wa.me/33659896116" className="btn btn-success btn-lg">
+                    <a href="https://wa.me/33659896116" className="btn btn-success btn-lg" target="_blank" rel="noopener noreferrer">
                         💬 WhatsApp
                     </a>
                 </div>

@@ -20,7 +20,7 @@ const Contact = () => {
                                 <p>06 59 89 61 16</p>
                             </div>
                         </a>
-                        <a href="https://wa.me/33659896116" className="contact-card success">
+                        <a href="https://wa.me/33659896116" className="contact-card success" target="_blank" rel="noopener noreferrer">
                             <span className="icon">💬</span>
                             <div>
                                 <h3>WhatsApp</h3>
