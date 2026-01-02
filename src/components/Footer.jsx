@@ -10,7 +10,7 @@ const Footer = () => {
                     <h3>Fibre Optique France</h3>
                     <p>Expertise, Rapidité, Confiance.</p>
                     <p className="mt-sm">Auto-entrepreneur</p>
-                    <p>SIRET : 000 000 000 00000</p>
+                    <p>SIRET : 893 786 632 00016</p>
                 </div>
 
                 <div className="footer-col">
