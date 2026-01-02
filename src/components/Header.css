@@ -22,7 +22,7 @@
 }
 
 .logo-img {
-    height: 3.5rem;
+    height: 5rem;
     /* Larger logo size */
     width: auto;
     object-fit: contain;
@@ -80,7 +80,8 @@
     .logo-wrapper {
         justify-content: center;
         flex-direction: column;
-        gap: 0.25rem;
+        gap: 0;
+        /* Name directly under logo */
     }
 
     .logo {
