@@ -7,6 +7,9 @@ import Gallery from './components/Gallery';
 import Process from './components/Process';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Testimonials from './components/Testimonials';
+import FAQ from './components/FAQ';
+import StickyAction from './components/StickyAction';
 import './App.css';
 
 function App() {
@@ -18,8 +21,11 @@ function App() {
       <Trust />
       <Gallery />
       <Process />
+      <Testimonials />
+      <FAQ />
       <Contact />
       <Footer />
+      <StickyAction />
     </div>
   );
 }

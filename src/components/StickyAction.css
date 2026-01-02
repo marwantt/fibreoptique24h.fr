@@ -1,0 +1,48 @@
+.sticky-action-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-bg-header);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid var(--color-border);
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    z-index: 2000;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sticky-action-bar.visible {
+    transform: translateY(0);
+}
+
+.sticky-btn {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem;
+    border-radius: var(--radius-md);
+    font-weight: 700;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+
+.sticky-btn.phone {
+    background-color: var(--color-primary);
+}
+
+.sticky-btn.whatsapp {
+    background-color: var(--color-success);
+}
+
+/* Hide on Desktop */
+@media (min-width: 769px) {
+    .sticky-action-bar {
+        display: none !important;
+    }
+}
