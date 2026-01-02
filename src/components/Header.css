@@ -22,8 +22,7 @@
 }
 
 .logo-img {
-    height: 5rem;
-    /* Larger logo size */
+    height: 1.5rem;
     width: auto;
     object-fit: contain;
 }
@@ -69,23 +68,7 @@
 }
 
 @media (max-width: 768px) {
-    .header-actions {
+    .hidden-mobile {
         display: none;
-    }
-
-    .header-container {
-        justify-content: center;
-    }
-
-    .logo-wrapper {
-        justify-content: center;
-        flex-direction: column;
-        gap: 0;
-        /* Name directly under logo */
-    }
-
-    .logo {
-        font-size: 1rem;
-        /* Slightly smaller name on mobile if needed */
     }
 }

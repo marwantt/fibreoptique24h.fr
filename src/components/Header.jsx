@@ -14,9 +14,6 @@ const Header = () => {
           <div className="logo">fibre optique <span className="text-accent">france</span></div>
         </div>
         <div className="header-actions">
-          <a href="mailto:contact@fibreoptique24h.fr" className="btn btn-outline btn-sm">
-            📧 <span className="hidden-mobile">Email</span>
-          </a>
           <a href="tel:+33659896116" className="btn btn-primary btn-sm">
             📞 <span className="hidden-mobile">06 59 89 61 16</span>
           </a>
