@@ -78,5 +78,12 @@
 
     .logo-wrapper {
         justify-content: center;
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+
+    .logo {
+        font-size: 1rem;
+        /* Slightly smaller name on mobile if needed */
     }
 }
