@@ -47,8 +47,16 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
-                    <h3>Message Rapid</h3>
+                <form className="contact-form" onSubmit={(e) => {
+                    e.preventDefault();
+                    const name = e.target.elements[0].value;
+                    const phone = e.target.elements[1].value;
+                    const message = e.target.elements[2].value;
+                    const text = `Bonjour, je suis ${name}. Mon numéro est ${phone}. Mon problème : ${message}`; // Message body
+                    const encodedText = encodeURIComponent(text);
+                    window.open(`https://wa.me/33659896116?text=${encodedText}`, '_blank');
+                }}>
+                    <h3>Message Rapide (WhatsApp)</h3>
                     <div className="form-group">
                         <label>Votre Nom</label>
                         <input type="text" placeholder="Nom Prénom" required />
@@ -61,7 +69,7 @@ const Contact = () => {
                         <label>Message</label>
                         <textarea placeholder="Décrivez votre problème..." rows="4" required></textarea>
                     </div>
-                    <button type="submit" className="btn btn-primary full-width">Envoyer demande</button>
+                    <button type="submit" className="btn btn-primary full-width">Envoyer sur WhatsApp</button>
                 </form>
             </div>
         </section>
